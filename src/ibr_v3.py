@@ -86,8 +86,7 @@ class Item_Based_Recommender():
             raise Exception("Product is not found !")
         elif (book_index.size > 1 ):
             print("Warning ! There are multiple books with this book_name")
-        else:
-            return book_index[0]
+        return book_index[0]
 
     def find_book_product_index(self, product_id):
         product_index = self.ratings[self.ratings["product_id"] == product_id]["product_index"]
