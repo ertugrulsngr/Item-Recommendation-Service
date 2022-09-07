@@ -1,6 +1,5 @@
 
-# Product Recommendation Service
-Recommender Service using Python.
+# Item Recommendation Service
 
 ## Overview
 It's a recommender service that written in Python. It Makes recommendations using user-product ratings and product details data. In this project, Collaborative Filtering (Item-Item) technique and Cosine Similarity algorithm is used to find similarities among products.
